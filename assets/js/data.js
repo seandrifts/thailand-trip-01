@@ -39,14 +39,14 @@ window.TRIP = {
     {
       day: 3, date: "7/16", weekday: "四", title: "變裝拍照，臥佛寺河岸一次收",
       theme: "Costume & Temple",
-      summary: "ICONSIAM → ONE DAY MASTER 租服裝 → 臥佛寺街拍 → 帕空花市 → 最紅的橋 → 泰服進臥佛寺 → Chom Arun",
+      summary: "ICONSIAM → ONE DAY MASTER 租服裝 → 臥佛寺街拍 → 帕空花市 → 曼谷紀念大橋 → 泰服進臥佛寺 → Chom Arun",
       blocks: [
         { time: "上午", icon: "🚇", title: "BTS Saphan Taksin 轉接駁船 → ICONSIAM", mapurl: "https://maps.app.goo.gl/Vf7njfnNPPAQPCb1A", detail: "搭 BTS 到 Saphan Taksin 站，再轉免費接駁船前往 ICONSIAM" },
         { time: "上午", icon: "🏢", title: "ICONSIAM", detail: "超豪華百貨，室內水上市場很好拍，B1 美食區品項多，建議留 2 小時以上" },
         { time: "中午", icon: "👗", title: "ONE DAY MASTER 租借服裝", mapurl: "https://maps.app.goo.gl/vJaPC6UXgK3q2pC27", detail: "租學生服與泰服，先穿學生服出門，拍完再回來換泰服" },
         { time: "下午", icon: "📸", title: "學生服 · 臥佛寺周邊街拍", detail: "穿學生服在臥佛寺一帶拍泰式街頭照，很有在地感" },
         { time: "下午", icon: "🌸", title: "帕空鮮花市場選花", mapurl: "https://maps.app.goo.gl/2fUBxQvoWzi7xuvT7", detail: "曼谷最大鮮花市場，挑幾束喜歡的花，順便拍照" },
-        { time: "下午", icon: "🌉", title: "最紅的橋拍照", mapurl: "https://maps.app.goo.gl/tPFEExujQAKonLD67", detail: "近期最熱門的打卡橋，拍幾張美照" },
+        { time: "下午", icon: "🌉", title: "曼谷紀念大橋", mapurl: "https://maps.app.goo.gl/tPFEExujQAKonLD67", detail: "近期最熱門的打卡橋，拍幾張美照" },
         { time: "傍晚", icon: "⛪", title: "換泰服 · 臥佛寺拍照", detail: "回來換上泰服進臥佛寺拍照，黃昏氛圍感最好" },
         { time: "晚上", icon: "🍽️", title: "晚餐：Chom Arun", mapurl: "https://maps.app.goo.gl/ZLVpuE5npa7hUPB28", book: true, detail: "正對鄭王廟的景觀餐廳，黃昏用餐視野絕佳，記得提前訂位" },
       ],
