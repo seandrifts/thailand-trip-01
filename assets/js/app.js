@@ -48,7 +48,11 @@ const ICONS = {
   "🌡️": "thermostat",
   "☔": "umbrella",
   "🎉": "celebration",
-  "❤️": "favorite"
+  "❤️": "favorite",
+  "👗": "checkroom",
+  "📸": "photo_camera",
+  "🌸": "local_florist",
+  "🌉": "landscape"
 };
 function Ic({
   e
