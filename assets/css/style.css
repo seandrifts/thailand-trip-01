@@ -333,7 +333,7 @@
     font-family: inherit;
   }
   .tl-num {
-    background: var(--teal); color: var(--paper);
+    background: #5E5A54; color: var(--paper);
     border-radius: 12px; padding: 10px 6px;
     text-align: center;
   }
