@@ -360,7 +360,7 @@ function Home({
     className: "h2"
   }, "\u51FA\u767C\u524D To-Do"), /*#__PURE__*/React.createElement(Checklist, {
     storageKey: "predepart",
-    items: ["機票訂好（去 / 回）", "飯店已訂", "機場包車已預訂", "Day 3 Chom Arun 已訂位", "確認所有人護照效期 6 個月以上", "投保旅遊平安險", "Day 4 近郊包車：美功鐵道市集 → 安帕瓦", "想按摩的店家記得提前預約", "換泰銖現金（或出發後到 Super Rich 換）", "辦泰國 SIM 卡 / eSIM", "下載 Grab App + Google Maps 離線地圖", "備好藥品：止瀉藥、防蚊液、退燒藥"]
+    items: ["機票訂好（去 / 回）", "飯店已訂", "Day 3 Chom Arun 已訂位", "確認所有人護照效期 6 個月以上", "投保旅遊平安險", "Day 4 近郊包車：美功鐵道市集 → 安帕瓦", "換泰銖現金（或出發後到 Super Rich 換）", "辦泰國 SIM 卡 / eSIM", "下載 Grab App + Google Maps 離線地圖", "備好藥品：止瀉藥、防蚊液、退燒藥"]
   }));
 }
 function Stat({
