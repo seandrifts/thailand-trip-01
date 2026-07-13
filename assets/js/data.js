@@ -61,7 +61,7 @@ window.TRIP = {
         { time: "上午", icon: "🛥️", title: "丹嫩莎朵水上市場 Damnoen Saduak", detail: "經典水上市場，搭船穿梭在運河間邊吃邊買" },
         { time: "中午", icon: "🚂", title: "美功鐵道市集 Maeklong", mapurl: "https://maps.app.goo.gl/zhtKMawGZhsENaNY9", detail: "火車穿越市場的奇景，火車來時攤販迅速收傘，記得先確認火車時刻" },
         { time: "下午", icon: "🛥️", title: "安帕瓦水上市場 Amphawa", detail: "最有氣氛的水上市場，搭船遊河、邊吃邊買，傍晚開始最熱鬧" },
-        { time: "下午", icon: "⛪", title: "วัดจุฬามณี Wat Chulamani", detail: "安帕瓦當地知名佛寺，順路過去參拜、拍照" },
+        { time: "下午", icon: "⛪", title: "วัดจุฬามณี Wat Chulamani", mapurl: "https://maps.app.goo.gl/fj73vCXGYHJXNXNV8", detail: "安帕瓦當地知名佛寺，順路過去參拜、拍照" },
         { time: "傍晚", icon: "☕", title: "Bubble in the Forest Cafe", detail: "森林系網美咖啡廳，木屋配水景超好拍，來喝杯咖啡吃個下午茶" },
         { time: "晚上", icon: "🌃", title: "Save One Go 夜市", detail: "廊曼機場旁邊的夜市，回程路上的覓食點，吃飽再拉車去機場" },
         { time: "深夜", icon: "✈️", title: "前往廊曼機場 DMK", nomap: true, detail: "約 00:00 抵達廊曼機場，搭紅眼班機 SL396，7/18 (六) 凌晨 03:00 起飛回台北，提早辦登機與退稅" },
