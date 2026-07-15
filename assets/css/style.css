@@ -686,7 +686,7 @@
     100% { transform: translate3d(var(--drift, 30px), 130vh, 0) rotate(720deg); }
   }
   .countdown-card.phase-during {
-    background: linear-gradient(135deg, #d98a5e, #c25e3e);
+    background: linear-gradient(135deg, #ecd3ab, #d3a86f);
   }
   .countdown-card.phase-after {
     background: var(--ink);
