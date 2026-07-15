@@ -689,7 +689,8 @@ const defaultFH = {
   retTime: "7/19 (日) 03:00 DMK 廊曼 T1 → 07:55 TPE T1",
   hotelName: "Adelphi Suites Bangkok",
   hotelAddr: "Soi Sukhumvit 8",
-  hotelPhone: ""
+  hotelPhone: "",
+  hotelMapUrl: "https://maps.app.goo.gl/8XSy9FfncnoCJ66D6"
 };
 function FlightHotelCard() {
   const [data, setData] = useState(defaultFH);
@@ -701,7 +702,7 @@ function FlightHotelCard() {
     [k]: v
   });
   const hotelQuery = [data.hotelName, data.hotelAddr, "Bangkok"].filter(Boolean).join(" ").trim();
-  const mapUrl = data.hotelName || data.hotelAddr ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(hotelQuery)}` : null;
+  const mapUrl = data.hotelMapUrl || (data.hotelName || data.hotelAddr ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(hotelQuery)}` : null);
   return /*#__PURE__*/React.createElement("div", {
     className: "fh-card"
   }, /*#__PURE__*/React.createElement("div", {
