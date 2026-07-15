@@ -298,7 +298,7 @@ function Home({
     className: "cd-unit"
   }, "\u5929"), /*#__PURE__*/React.createElement("div", {
     className: "cd-meta"
-  }, m.startDate.replace(/-/g, "/"), " (\u4E8C) ", /*#__PURE__*/React.createElement(Ic, {
+  }, m.startDate.replace(/-/g, "/"), " (\u4E09) ", /*#__PURE__*/React.createElement(Ic, {
     e: "\u2708"
   }), " TPE \u2192 BKK")), phase === "during" && /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {
     className: "cd-label"
@@ -683,10 +683,10 @@ function Pack() {
 
 // ---- Flight / Hotel ----
 const defaultFH = {
-  outFlight: "VZ569 泰國越捷航空",
-  outTime: "7/14 (二) 19:55 TPE T1 → 22:40 BKK 素萬那普",
+  outFlight: "CX407 / CX653 國泰航空（經香港轉機）",
+  outTime: "7/15 (三) 08:00 TPE T1 → 14:00 BKK 素萬那普",
   retFlight: "SL396 泰國獅航",
-  retTime: "7/18 (六) 03:00 DMK 廊曼 T1 → 07:55 TPE T1",
+  retTime: "7/19 (日) 03:00 DMK 廊曼 T1 → 07:55 TPE T1",
   hotelName: "Adelphi Suites Bangkok",
   hotelAddr: "Soi Sukhumvit 8",
   hotelPhone: ""
@@ -992,7 +992,7 @@ function App() {
     go: go
   }), tab === "days" && /*#__PURE__*/React.createElement(Days, null), tab === "extras" && /*#__PURE__*/React.createElement(Extras, null), tab === "info" && /*#__PURE__*/React.createElement(Info, null), tab === "pack" && /*#__PURE__*/React.createElement(Pack, null)), /*#__PURE__*/React.createElement("footer", {
     className: "ftr"
-  }, /*#__PURE__*/React.createElement("div", null, "\u66FC\u8C37\u4E4B\u65C5 \xB7 2026.07.14 \u2013 07.17"), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("div", null, "\u66FC\u8C37\u4E4B\u65C5 \xB7 2026.07.15 \u2013 07.18"), /*#__PURE__*/React.createElement("div", {
     className: "ftr-sub"
   }, "\u73A9\u5F97\u958B\u5FC3\uFF0C\u6CE8\u610F\u5B89\u5168 ", /*#__PURE__*/React.createElement(Ic, {
     e: "\u2764\uFE0F"

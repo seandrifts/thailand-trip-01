@@ -683,7 +683,7 @@
   .countdown-card.phase-during > *,
   .countdown-card.phase-after > * { position: relative; z-index: 2; }
   .countdown-card.phase-during {
-    background: linear-gradient(135deg, var(--saffron), var(--saffron-d));
+    background: linear-gradient(135deg, var(--teal), var(--teal-d));
   }
   .countdown-card.phase-after {
     background: var(--ink);

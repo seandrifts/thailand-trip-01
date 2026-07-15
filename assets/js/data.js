@@ -1,10 +1,10 @@
-// 曼谷之旅資料 2026/07/14-2026/07/17
+// 曼谷之旅資料 2026/07/15-2026/07/18
 window.TRIP = {
   meta: {
     title: "曼谷之旅",
     subtitle: "Bangkok",
-    startDate: "2026-07-14",
-    endDate: "2026-07-17",
+    startDate: "2026-07-15",
+    endDate: "2026-07-18",
     days: 4,
     people: "團體出遊",
     city: "曼谷 Bangkok",
@@ -13,18 +13,20 @@ window.TRIP = {
 
   itinerary: [
     {
-      day: 1, date: "7/14", weekday: "二", title: "落地曼谷，今晚先養足精神",
+      day: 1, date: "7/15", weekday: "三", title: "落地曼谷，下午自由活動",
       theme: "Arrival",
-      summary: "22:40 抵達 BKK → Adelphi Suites Check-in → 早點休息",
+      summary: "08:00 桃園出發（香港轉機）→ 14:00 抵達 BKK → Adelphi Suites Check-in → 下午自由安排",
       blocks: [
-        { time: "22:40", icon: "✈️", title: "抵達 BKK 素萬那普機場", detail: "VZ569 落地，出關後前往飯店 Adelphi Suites，第一天很晚到、不排行程" },
-        { time: "深夜", icon: "🏨", title: "Adelphi Suites Check-in", detail: "飯店在 Sukhumvit Soi 8（近 BTS Nana），放好行李、梳洗，今晚先睡飽" },
-        { time: "宵夜", icon: "🍜", title: "想吃再覓食", nomap: true, detail: "Sukhumvit 8 一帶宵夜選擇多，餓的話簡單吃一點，不餓就早點休息" },
+        { time: "08:00", icon: "✈️", title: "桃園機場出發", nomap: true, detail: "CX407 國泰航空，08:00 TPE 起飛，10:00 抵達香港" },
+        { time: "10:00", icon: "✈️", title: "香港轉機", nomap: true, detail: "轉機約 2 小時，接續 CX653，12:00 香港起飛" },
+        { time: "14:00", icon: "✈️", title: "抵達 BKK 素萬那普機場", detail: "出關後前往飯店 Adelphi Suites" },
+        { time: "下午", icon: "🏨", title: "Adelphi Suites Check-in", detail: "飯店在 Sukhumvit Soi 8（近 BTS Nana），放好行李後自由活動、附近走走" },
+        { time: "晚上", icon: "🍜", title: "自由活動 / 覓食", nomap: true, detail: "Sukhumvit 8 一帶選擇多，第一天先輕鬆逛逛、簡單吃，不排重頭戲" },
       ],
-      tips: "去程 22:40 才落地，第一天就是安頓、睡飽，不排重頭戲。",
+      tips: "去程改搭國泰航空經香港轉機，14:00 就抵達曼谷，下午時間多，check-in 後自由安排即可。",
     },
     {
-      day: 2, date: "7/15", weekday: "三", title: "Siam 血拼，晚上看秀逛夜市",
+      day: 2, date: "7/16", weekday: "四", title: "Siam 血拼，晚上看秀逛夜市",
       theme: "Shopping & Show",
       summary: "Siam 區 → Siam Paragon 採購精品 → 金東尼人妖秀 → Jodd Fairs 夜市",
       blocks: [
@@ -37,7 +39,7 @@ window.TRIP = {
       tips: "金東尼人妖秀建議先訂票；Jodd Fairs 入夜後最熱鬧，現金為主。",
     },
     {
-      day: 3, date: "7/16", weekday: "四", title: "變裝拍照，臥佛寺河岸一次收",
+      day: 3, date: "7/17", weekday: "五", title: "變裝拍照，臥佛寺河岸一次收",
       theme: "Costume & Temple",
       summary: "ICONSIAM → ONE DAY MASTER 租服裝 → 臥佛寺街拍 → 帕空花市 → 曼谷紀念大橋 → 泰服進臥佛寺 → Chom Arun",
       blocks: [
@@ -53,7 +55,7 @@ window.TRIP = {
       tips: "ONE DAY MASTER 建議先預約；學生服拍完再換泰服。進臥佛寺要過膝、有袖，泰服剛好符合。Chom Arun 熱門，建議提前訂位。",
     },
     {
-      day: 4, date: "7/17", weekday: "五", title: "近郊小旅行，最後趕飛機回家",
+      day: 4, date: "7/18", weekday: "六", title: "近郊小旅行，最後趕飛機回家",
       theme: "Day Trip & Departure",
       summary: "丹嫩莎朵 → 美功鐵道市集 → 安帕瓦 → วัดจุฬามณี → Bubble in the Forest → Save One Go 夜市 → 廊曼機場",
       blocks: [
@@ -64,9 +66,9 @@ window.TRIP = {
         { time: "下午", icon: "⛪", title: "วัดจุฬามณี Wat Chulamani", mapurl: "https://maps.app.goo.gl/fj73vCXGYHJXNXNV8", detail: "安帕瓦當地知名佛寺，順路過去參拜、拍照" },
         { time: "傍晚", icon: "☕", title: "Bubble in the Forest Cafe", detail: "森林系網美咖啡廳，木屋配水景超好拍，來喝杯咖啡吃個下午茶" },
         { time: "晚上", icon: "🌃", title: "Save One Go 夜市", detail: "廊曼機場旁邊的夜市，回程路上的覓食點，吃飽再拉車去機場" },
-        { time: "深夜", icon: "✈️", title: "前往廊曼機場 DMK", nomap: true, detail: "約 00:00 抵達廊曼機場，搭紅眼班機 SL396，7/18 (六) 凌晨 03:00 起飛回台北，提早辦登機與退稅" },
+        { time: "深夜", icon: "✈️", title: "前往廊曼機場 DMK", nomap: true, detail: "約 00:00 抵達廊曼機場，搭紅眼班機 SL396，7/19 (日) 凌晨 03:00 起飛回台北，提早辦登機與退稅" },
       ],
-      tips: "近郊全程建議包車；美功鐵道班次有限，先抓好火車時刻。回程是 7/18 凌晨 03:00 的紅眼班機（SL396，廊曼 DMK），今晚要留時間趕機。",
+      tips: "近郊全程建議包車；美功鐵道班次有限，先抓好火車時刻。回程是 7/19 凌晨 03:00 的紅眼班機（SL396，廊曼 DMK），今晚要留時間趕機。",
     },
   ],
 
@@ -127,7 +129,7 @@ window.TRIP = {
   },
 
   packing: [
-    { cat: "證件 & 金錢", items: ["護照（效期 6 個月以上）","護照影本 2 份","電子機票：VZ569（去）/ SL396（回）","旅遊保險證明","信用卡（含 Visa）","台幣現金（到 Super Rich 換）⚠️ 入境需備 20,000 THB 等值現金（台幣可），移民官若查驗不足有遭遣返風險"] },
+    { cat: "證件 & 金錢", items: ["護照（效期 6 個月以上）","護照影本 2 份","電子機票：CX407 / CX653（去，經香港轉機）/ SL396（回）","旅遊保險證明","信用卡（含 Visa）","台幣現金（到 Super Rich 換）⚠️ 入境需備 20,000 THB 等值現金（台幣可），移民官若查驗不足有遭遣返風險"] },
     { cat: "電子用品", items: ["手機 + 充電線","行動電源（放隨身行李）","相機","耳機","泰國 SIM 卡 / eSIM","充電器確認支援 100–240V（需自動變壓，否則 220V 會燒毀）"] },
     { cat: "衣物", items: ["短袖 T 恤 x 4","長褲 / 長裙（寺廟備用）","薄外套（冷氣很強）","好走的涼鞋 / 球鞋","薄雨衣 / 折傘","防曬帽"] },
     { cat: "盥洗 & 藥品", items: ["牙刷牙膏","防曬乳 SPF50+","防蚊液","止瀉藥（必備！）","止痛退燒藥","個人慢性病藥","OK 繃 / 痠痛貼布"] },
