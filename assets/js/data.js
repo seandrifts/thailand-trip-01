@@ -26,20 +26,7 @@ window.TRIP = {
       tips: "去程改搭國泰航空經香港轉機，14:00 就抵達曼谷，下午時間多，check-in 後自由安排即可。",
     },
     {
-      day: 2, date: "7/16", weekday: "四", title: "Siam 血拼，晚上看秀逛夜市",
-      theme: "Shopping & Show",
-      summary: "Siam 區 → Siam Paragon 採購精品 → 金東尼人妖秀 → Jodd Fairs 夜市",
-      blocks: [
-        { time: "上午", icon: "🚇", title: "Siam 區", mapurl: "https://maps.app.goo.gl/Vu5HNqYRqSfDLJrg6", detail: "曼谷最熱鬧的購物中心區，百貨一間連一間，逛街從這裡開始" },
-        { time: "上午", icon: "🛍️", title: "Siam Paragon 採購精品", mapurl: "https://maps.app.goo.gl/AHQy2Ff3bvMT2EaP7", detail: "曼谷最指標的豪華百貨，M 層國際精品、G 層美食廣場，精品採購主力在這" },
-        { time: "中午", icon: "🍽️", title: "午餐：Paragon 美食廣場", nomap: true, detail: "G 層美食廣場選擇多，逛累了直接在百貨裡解決一餐" },
-        { time: "晚上", icon: "🎭", title: "金東尼人妖秀", detail: "曼谷經典人妖歌舞秀，華麗服裝與表演很值得一看，建議先線上訂票選好場次" },
-        { time: "晚些", icon: "🌃", title: "Jodd Fairs 夜市", detail: "曼谷人氣夜市，小吃、攤販、火山排骨都有，邊吃邊逛收尾" },
-      ],
-      tips: "金東尼人妖秀建議先訂票；Jodd Fairs 入夜後最熱鬧，現金為主。",
-    },
-    {
-      day: 3, date: "7/17", weekday: "五", title: "變裝拍照，臥佛寺河岸一次收",
+      day: 2, date: "7/16", weekday: "四", title: "變裝拍照，臥佛寺河岸一次收",
       theme: "Costume & Temple",
       summary: "ICONSIAM → ONE DAY MASTER 租服裝 → 臥佛寺街拍 → 帕空花市 → 曼谷紀念大橋 → 泰服進臥佛寺 → Chom Arun",
       blocks: [
@@ -50,9 +37,22 @@ window.TRIP = {
         { time: "下午", icon: "🌸", title: "帕空鮮花市場選花", mapurl: "https://maps.app.goo.gl/2fUBxQvoWzi7xuvT7", detail: "曼谷最大鮮花市場，挑幾束喜歡的花，順便拍照" },
         { time: "下午", icon: "🌉", title: "曼谷紀念大橋", mapurl: "https://maps.app.goo.gl/tPFEExujQAKonLD67", detail: "近期最熱門的打卡橋，拍幾張美照" },
         { time: "傍晚", icon: "⛪", title: "換泰服 · 臥佛寺拍照", mapurl: "https://maps.app.goo.gl/pHKCyzWHxp8cXTwu9", detail: "回來換上泰服進臥佛寺拍照，黃昏氛圍感最好" },
-        { time: "晚上", icon: "🍽️", title: "晚餐：Chom Arun", mapurl: "https://maps.app.goo.gl/ZLVpuE5npa7hUPB28", book: true, detail: "正對鄭王廟的景觀餐廳，黃昏用餐視野絕佳，記得提前訂位" },
+        { time: "17:15", icon: "🍽️", title: "晚餐：Chom Arun（已訂位）", mapurl: "https://maps.app.goo.gl/ZLVpuE5npa7hUPB28", book: true, detail: "正對鄭王廟的景觀餐廳，7/16 17:15 已訂位，黃昏用餐視野絕佳，記得準時到" },
       ],
-      tips: "ONE DAY MASTER 建議先預約；學生服拍完再換泰服。進臥佛寺要過膝、有袖，泰服剛好符合。Chom Arun 熱門，建議提前訂位。",
+      tips: "ONE DAY MASTER 建議先預約；學生服拍完再換泰服。進臥佛寺要過膝、有袖，泰服剛好符合。Chom Arun 已訂 7/16 17:15，留意時間別遲到。",
+    },
+    {
+      day: 3, date: "7/17", weekday: "五", title: "Siam 血拼，晚上看秀逛夜市",
+      theme: "Shopping & Show",
+      summary: "Siam 區 → Siam Paragon 採購精品 → 金東尼人妖秀 → Jodd Fairs 夜市",
+      blocks: [
+        { time: "上午", icon: "🚇", title: "Siam 區", mapurl: "https://maps.app.goo.gl/Vu5HNqYRqSfDLJrg6", detail: "曼谷最熱鬧的購物中心區，百貨一間連一間，逛街從這裡開始" },
+        { time: "上午", icon: "🛍️", title: "Siam Paragon 採購精品", mapurl: "https://maps.app.goo.gl/AHQy2Ff3bvMT2EaP7", detail: "曼谷最指標的豪華百貨，M 層國際精品、G 層美食廣場，精品採購主力在這" },
+        { time: "中午", icon: "🍽️", title: "午餐：Paragon 美食廣場", nomap: true, detail: "G 層美食廣場選擇多，逛累了直接在百貨裡解決一餐" },
+        { time: "晚上", icon: "🎭", title: "金東尼人妖秀", detail: "曼谷經典人妖歌舞秀，華麗服裝與表演很值得一看，建議先線上訂票選好場次" },
+        { time: "晚些", icon: "🌃", title: "Jodd Fairs 夜市", detail: "曼谷人氣夜市，小吃、攤販、火山排骨都有，邊吃邊逛收尾" },
+      ],
+      tips: "金東尼人妖秀建議先訂票；Jodd Fairs 入夜後最熱鬧，現金為主。",
     },
     {
       day: 4, date: "7/18", weekday: "六", title: "近郊小旅行，最後趕飛機回家",
@@ -79,7 +79,7 @@ window.TRIP = {
   spas: [],
 
   extras: [
-    { day: 2, date: "7/15", weekday: "三", area: "Siam 一帶", items: [
+    { day: 3, date: "7/17", weekday: "五", area: "Siam 一帶", items: [
       { type: "shop", name: "Siam Paragon", area: "Siam", note: "曼谷最指標性的豪華百貨，M 層是國際精品區，G 層美食廣場選擇豐富，地下有 SEA LIFE 水族館，精品採購主力在這", mapurl: "https://maps.app.goo.gl/AHQy2Ff3bvMT2EaP7" },
       { type: "shop", name: "Siam Center", area: "Siam", note: "泰國本土設計師與國際潮流品牌集合，跟 Siam Paragon 直接相連，風格比較年輕活潑，美食廣場選擇也多", mapurl: "https://maps.app.goo.gl/1pFEEXmirSWevETGA" },
       { type: "shop", name: "Frank Garcon", area: "Siam Square Soi 2", note: "Siam Square Soi 2 高評分選品時裝店（4.8 / 5），主打獨立設計師品牌，風格介於歐式與街頭之間，在台灣找不到", mapurl: "https://maps.app.goo.gl/L4NxaTC3QS48MPrNA" },
@@ -88,7 +88,7 @@ window.TRIP = {
       { type: "shop", name: "MINISO LAND Siam Square", area: "Siam Square", note: "曼谷旗艦大店，比台灣門市更大、商品更齊，聯名款跟限定品比較容易買到，喜歡 MINISO 可以在這裡掃一輪", mapurl: "https://maps.app.goo.gl/GBR7M95dxesHeKtM7" },
       { type: "shop", name: "BEAUTRIUM Siam Square", area: "Siam Square", note: "泰國最大連鎖美妝集合店，泰國本土保養品牌跟日韓選品都齊全，CP 值比機場免稅店好，想買保養品伴手禮在這挑就對了", mapurl: "https://maps.app.goo.gl/Zq16F71EGC3XgJ199" },
     ]},
-    { day: 3, date: "7/16", weekday: "四", area: "ICONSIAM・松瓦路・河岸一帶", items: [
+    { day: 2, date: "7/16", weekday: "四", area: "ICONSIAM・松瓦路・河岸一帶", items: [
       { type: "food", name: "% ARABICA 暹羅天地店", area: "ICONSIAM", note: "日本頂級精品咖啡品牌，在 ICONSIAM 裡，極簡白色空間很好拍，招牌 Latte 和 Matcha Latte 必點，逛完百貨來一杯剛好", mapurl: "https://maps.app.goo.gl/mH8UWKE8TFEhsbbB7" },
       { type: "food", name: "After Sunrise", area: "臥佛寺旁 Chetuphon Gate 2F", note: "臥佛寺旁的高評分餅店（4.9 / 5），新鮮手工烘焙，逛完廟出來肚子餓直接上 2 樓，簡單好吃", mapurl: "https://maps.app.goo.gl/aUX1Gkw6D7cGtQKt9" },
       { type: "food", name: "Song Wat Coffee Roasters : Tha Tian", area: "Tha Tian（鄭王廟旁）", note: "自家烘焙精品咖啡，評分 4.8，就在 Tha Tian 碼頭附近，老城巷弄裡喝咖啡特別有氣氛", mapurl: "https://maps.app.goo.gl/WgH1nCoStQVPbg3x7" },

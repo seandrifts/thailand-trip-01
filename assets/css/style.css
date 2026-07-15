@@ -683,12 +683,13 @@
   .countdown-card.phase-during > *,
   .countdown-card.phase-after > * { position: relative; z-index: 2; }
   .countdown-card.phase-during {
-    background: linear-gradient(135deg, var(--teal), var(--teal-d));
+    background: linear-gradient(135deg, #d98a5e, #c25e3e);
   }
   .countdown-card.phase-after {
     background: var(--ink);
   }
   .cd-num-mid { font-size: 64px !important; margin-top: 18px !important; }
+  .cd-num-mid + .cd-unit { margin-top: 14px; }
   .today-badge {
     display: inline-block;
     margin-left: 8px;
